@@ -53,6 +53,7 @@ header h2 {
 header img {
     width: 8.75rem;
     mix-blend-mode: multiply;
+    -webkit-mix-blend-mode: multiply;
     filter: brightness(1.5);
     -webkit-filter: brightness(1.5);
 }
@@ -123,6 +124,7 @@ a.material-symbols-outlined:hover {
     border: 0.125rem solid rgb(var(--tertiary-color));
     border-radius: 0.25rem;
     width: fit-content;
+    display: block;
 }
 
 .project a:hover {

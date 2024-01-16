@@ -79,6 +79,13 @@ fetch('./data.json')
                         projectContainer.appendChild(icons)
                     }
 
+                    if (item.link) {
+                        const link = document.createElement('a')
+                        link.href = item.link
+                        link.textContent = 'Article from one annual event'
+                        projectContainer.appendChild(link)
+                    }
+
                     if (item.email) {
                         const emailLink = document.createElement('a')
                         emailLink.href = 'mailto:' + item.email
