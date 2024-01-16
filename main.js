@@ -1,3 +1,5 @@
+// TODO: Add relevant alt data for images in data.json
+
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1)
 }
@@ -43,12 +45,14 @@ fetch('./data.json')
                     imageContainer.classList.add('image-container')
                     projectContainer.appendChild(imageContainer)
 
-                    item.images &&
-                        item.images.forEach((imageUrl) => {
+                    if (item.images) {
+                        item.images.forEach((imageData) => {
                             const image = document.createElement('img')
-                            image.src = './images/' + imageUrl
+                            image.src = './images/' + imageData.src
+                            image.alt = imageData.alt
                             imageContainer.appendChild(image)
                         })
+                    }
 
                     if (item.frontend) {
                         const frontend = document.createElement('a')
@@ -79,6 +83,13 @@ fetch('./data.json')
                         projectContainer.appendChild(icons)
                     }
 
+                    if (item.link) {
+                        const link = document.createElement('a')
+                        link.href = item.link
+                        link.textContent = 'Article from annual event'
+                        projectContainer.appendChild(link)
+                    }
+
                     if (item.email) {
                         const emailLink = document.createElement('a')
                         emailLink.href = 'mailto:' + item.email
@@ -97,7 +108,7 @@ fetch('./data.json')
                     portfolioContainer.classList.add(
                         'animate__animated',
                         'animate__fadeInUp',
-                        'animate__delay-3s'
+                        'animate__delay-2s'
                     )
                     portfolioContainer.appendChild(projectContainer)
                 })

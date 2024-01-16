@@ -9,9 +9,18 @@
                     "While I know that exchanging time, skills, and services makes everyone involved more wealthy and healthy, the real goal is to build human connections and community safety."
                 ],
                 "images": [
-                    "helping-neighbors-01.png",
-                    "helping-neighbors-03.png",
-                    "helping-neighbors-04.png"
+                    {
+                        "src": "helping-neighbors-01.png",
+                        "alt": "helping-neighbors-01.png"
+                    },
+                    {
+                        "src": "helping-neighbors-03.png",
+                        "alt": "helping-neighbors-03.png"
+                    },
+                    {
+                        "src": "helping-neighbors-04.png",
+                        "alt": "helping-neighbors-04.png"
+                    }
                 ],
                 "url": "https://helping-neighbors.nicholaskunz.com/",
                 "frontend": "https://github.com/ntkunz/helping_neighbors",
@@ -23,7 +32,20 @@
                     "Static site for small business to share their vibe with the world",
                     "Non-traditional desires for information sharing, the site is largely image based with many colors"
                 ],
-                "images": ["riseup-01.png", "riseup-02.png", "riseup-03.png"],
+                "images": [
+                    {
+                        "src": "riseup-01.png",
+                        "alt": "riseup-01.png"
+                    },
+                    {
+                        "src": "riseup-02.png",
+                        "alt": "riseup-02.png"
+                    },
+                    {
+                        "src": "riseup-03.png",
+                        "alt": "riseup-03.png"
+                    }
+                ],
                 "url": "https://riseuponelove.com/",
                 "frontend": "https://github.com/ntkunz/riseup"
             },
@@ -33,7 +55,16 @@
                     "Thorough overhaul of EdgeCity's Squarespace website, including page layout, content, photography, course offerings, scheduling, and information structure.",
                     "Since the new site launched, direct student clarification on classes offered is down by over 50% and nearly all classes are sold out over a week before their start date."
                 ],
-                "images": ["edgecity-01.png", "edgecity-02.png"],
+                "images": [
+                    {
+                        "src": "edgecity-01.png",
+                        "alt": "EdgeCity Woodworking Website Image 1"
+                    },
+                    {
+                        "src": "edgecity-02.png",
+                        "alt": "EdgeCity Woodworking Website Image 2"
+                    }
+                ],
                 "url": "https://www.edgecitywoodworking.com/"
             }
         ]
@@ -49,7 +80,12 @@
                     "I am also studying programming paradigms and testing",
                     "I believe that learning the foundations of all of these frameworks and tools is the best way to learn to use them all"
                 ],
-                "images": ["webdev-01.png"],
+                "images": [
+                    {
+                        "src": "webdev-01.png",
+                        "alt": "Frontend Web Development Image 1"
+                    }
+                ],
                 "icons": [
                     "html5.svg",
                     "css3.svg",
@@ -65,7 +101,12 @@
                     "Familiar with Node, Express, Knex, Socket.io, and MySQL",
                     "I am currently studying relational database design and SQL"
                 ],
-                "images": ["backend-01.png"],
+                "images": [
+                    {
+                        "src": "backend-01.png",
+                        "alt": "Backend Web Development Image 1"
+                    }
+                ],
                 "icons": [
                     "node.svg",
                     "linux.svg",
@@ -90,7 +131,12 @@
                     "Continually learning and improving at something that can never be completely mastered.",
                     "All the same feelings of something not working, being outside of your comfort range or current skill set, trying different tactics, eventually figuring it out, making it work, and the payoff making all of the effort worth it."
                 ],
-                "images": ["skateboarding-01.png"]
+                "images": [
+                    {
+                        "src": "skateboarding-01.png",
+                        "alt": "Skateboarding Image 1"
+                    }
+                ]
             },
             {
                 "title": "Event Coordination and Volunteering",
@@ -100,10 +146,16 @@
                     "Various events include fundraisers, demos, photography zine fairs, and more."
                 ],
                 "images": [
-                    "cjf-benefit-fundraiser-flyer.png",
-                    "rayko-zine-fest-flyer.png"
+                    {
+                        "src": "cjf-benefit-fundraiser-flyer.png",
+                        "alt": "Event Coordination and Volunteering Image 1"
+                    },
+                    {
+                        "src": "rayko-zine-fest-flyer.png",
+                        "alt": "Event Coordination and Volunteering Image 2"
+                    }
                 ],
-                "url": "https://vladimirfilmfestival.com/nich-kunz-setting-up-the-darkroom/"
+                "link": "https://vladimirfilmfestival.com/nich-kunz-setting-up-the-darkroom/"
             }
         ]
     },
