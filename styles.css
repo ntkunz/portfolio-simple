@@ -1,0 +1,184 @@
+:root {
+    --primary-color: 206, 241, 234;
+    --secondary-color: 133, 91, 2;
+    --tertiary-color: 3, 97, 77;
+    --fourth-color: 255, 217, 0;
+}
+
+/* add reset for css defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+body {
+    background-color: rgb(var(--tertiary-color));
+    color: rgb(var(--primary-color));
+    font-family: 'Open Sans', sans-serif;
+    margin: 1rem;
+    max-width: 64rem;
+    /* background-color: rgb(var(--primary-color), 0.2); */
+}
+
+h1 {
+    text-shadow: 0.125rem 0.125rem 0.125rem rgb(var(--tertiary-color));
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(var(--secondary-color));
+    overflow: hidden;
+}
+
+header span {
+    text-decoration: line-through;
+}
+
+header h2 {
+    align-self: flex-start;
+    color: rgb(var(--tertiary-color));
+    text-shadow: 0.05rem 0.05rem 0.125rem rgb(var(--primary-color));
+}
+
+header img {
+    width: 8.75rem;
+    mix-blend-mode: multiply;
+    filter: brightness(1.5);
+    -webkit-filter: brightness(1.5);
+}
+
+header nav {
+    margin-top: 1rem;
+    padding: 2rem 1rem;
+}
+
+main {
+    background-color: rgba(var(--primary-color), 0.2);
+    padding: 0 1rem;
+}
+
+main h2 {
+    margin-top: 0;
+    text-shadow: 0.125rem 0.125rem 0.125rem rgb(var(--secondary-color));
+}
+
+a.material-symbols-outlined {
+    background-color: rgb(var(--secondary-color));
+    padding: 0.125rem 0;
+    color: rgb(var(--primary-color));
+    display: block;
+    transition: all 0.3s ease;
+    text-shadow: 0.125rem 0.125rem 0.125rem rgb(var(--tertiary-color));
+    margin: 0.5rem 0;
+}
+
+a.material-symbols-outlined:hover {
+    text-shadow: 0.05rem 0.05rem 0.1rem rgb(var(--primary-color));
+    background-color: rgba(var(--fourth-color), 0.2);
+    color: rgb(var(--tertiary-color));
+}
+
+.project {
+    background-color: rgba(var(--fourth-color), 0.8);
+    color: rgb(var(--tertiary-color));
+    margin: 1rem 0;
+    padding: 1rem;
+    /* box-shadow: 0.125rem 0.125rem 0.25rem rgb(var(--primary-color)); */
+    border-radius: 0.25rem;
+}
+
+.project h3 {
+    background-color: rgb(var(--fourth-color));
+    border: 0.125rem solid rgb(var(--tertiary-color));
+    padding: 0.5rem 0.25rem;
+    width: fit-content;
+    border-radius: 0.25rem;
+}
+
+.project p {
+    margin: 1rem 0;
+    padding: 0.25rem;
+    background-color: rgba(var(--primary-color), 0.9);
+    width: fit-content;
+    border-radius: 0.125rem;
+    max-width: 56rem;
+}
+
+.project a {
+    color: rgb(var(--tertiary-color));
+    background-color: rgb(var(--primary-color));
+    transition: all 0.3s ease;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 0.125rem solid rgb(var(--tertiary-color));
+    border-radius: 0.25rem;
+    width: fit-content;
+}
+
+.project a:hover {
+    color: rgb(var(--primary-color));
+    background-color: rgb(var(--secondary-color));
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.project img {
+    width: clamp(10rem, 40vw, 13rem);
+    height: auto;
+    border: 0.125rem solid rgb(var(--tertiary-color));
+    border-radius: 0.25rem;
+    align-self: flex-start;
+    margin: 0.25rem;
+    flex-grow: 1;
+}
+
+.project img.icon {
+    width: 3rem;
+    height: auto;
+    padding: 0.25rem;
+}
+
+/* tablet and above styles */
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    header nav {
+        margin: 0;
+        padding: 0;
+        text-align: right;
+    }
+
+    a.material-symbols-outlined {
+        margin: 0;
+    }
+}
+
+/* desktop and above styles */
+@media screen and (min-width: 66rem) {
+    body {
+        margin: 1rem auto;
+    }
+}

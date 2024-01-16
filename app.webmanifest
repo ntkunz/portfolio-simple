@@ -1,0 +1,27 @@
+{
+    "name": "Nicholas Kunz - Web Developer Portfolio",
+    "short_name": "Nicholas Kunz - Hire Me",
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "background_color": "#000000",
+    "start_url": "/",
+    "scope": "/",
+    "description": "Nicholas Kunz web developer portfolio website",
+    "icons": [
+        {
+            "src": "images/icons/icon.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "images/screen1.jpg",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "images/screen2.jpg",
+            "type": "image/jpeg"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+[
+    {
+        "projects": [
+            {
+                "title": "Helping Neighbors",
+                "description": [
+                    "A full stack application built to allow users to message their neighbors to arrange barters.",
+                    "This project was brought to life in 2 weeks while a student at BrainStation. Since then I have been refactoring, adding features, and have launched the beta of the site at the link below. It utilizes geocoding and the geography point spatial query feature of MySQL to retrieve users from the database within a 1/2 kilometer of the user. The main technologies are React, Node/Espress, Socket.io, MySQL, and SASS/CSS.",
+                    "While I know that exchanging time, skills, and services makes everyone involved more wealthy and healthy, the real goal is to build human connections and community safety."
+                ],
+                "images": [
+                    "helping-neighbors-01.png",
+                    "helping-neighbors-03.png",
+                    "helping-neighbors-04.png"
+                ],
+                "url": "https://helping-neighbors.nicholaskunz.com/",
+                "frontend": "https://github.com/ntkunz/helping_neighbors",
+                "backend": "https://github.com/ntkunz/hn_db"
+            },
+            {
+                "title": "RiseUp One Love.com",
+                "description": [
+                    "Static site for small business to share their vibe with the world",
+                    "Non-traditional desires for information sharing, the site is largely image based with many colors"
+                ],
+                "images": ["riseup-01.png", "riseup-02.png", "riseup-03.png"],
+                "url": "https://riseuponelove.com/",
+                "frontend": "https://github.com/ntkunz/riseup"
+            },
+            {
+                "title": "EdgeCity Woodworking Website",
+                "description": [
+                    "Thorough overhaul of EdgeCity's Squarespace website, including page layout, content, photography, course offerings, scheduling, and information structure.",
+                    "Since the new site launched, direct student clarification on classes offered is down by over 50% and nearly all classes are sold out over a week before their start date."
+                ],
+                "images": ["edgecity-01.png", "edgecity-02.png"],
+                "url": "https://www.edgecitywoodworking.com/"
+            }
+        ]
+    },
+    {
+        "skills": [
+            {
+                "title": "Frontend Web Development",
+                "description": [
+                    "Experienced at planning, buildling, and deploying frontend websites and web applications",
+                    "Comfortable in React, JSX, and SASS, interacting with REST APIs and function testing with Jest",
+                    "My main interest currently is building with pure HTML, JavaScript, and CSS",
+                    "I am also studying programming paradigms and testing",
+                    "I believe that learning the foundations of all of these frameworks and tools is the best way to learn to use them all"
+                ],
+                "images": ["webdev-01.png"],
+                "icons": [
+                    "html5.svg",
+                    "css3.svg",
+                    "javascript.svg",
+                    "react.svg",
+                    "scss.svg",
+                    "jest.svg"
+                ]
+            },
+            {
+                "title": "Backend Web Development",
+                "description": [
+                    "Familiar with Node, Express, Knex, Socket.io, and MySQL",
+                    "I am currently studying relational database design and SQL"
+                ],
+                "images": ["backend-01.png"],
+                "icons": [
+                    "node.svg",
+                    "linux.svg",
+                    "express.svg",
+                    "knex.svg",
+                    "mysql.svg",
+                    "socketio.svg"
+                ]
+            }
+        ]
+    },
+    {
+        "hobbies": [
+            {
+                "title": "Skateboarding",
+                "description": [
+                    "Why does that matter???",
+                    "25 years of skateboarding experience",
+                    "25 years of building projects in teams over a variety of mediums and technologies",
+                    "25 years of progressing at something with many parallels to programming such as: ",
+                    "Solo activity made better through team collaboration and leadership.",
+                    "Continually learning and improving at something that can never be completely mastered.",
+                    "All the same feelings of something not working, being outside of your comfort range or current skill set, trying different tactics, eventually figuring it out, making it work, and the payoff making all of the effort worth it."
+                ],
+                "images": ["skateboarding-01.png"]
+            },
+            {
+                "title": "Event Coordination and Volunteering",
+                "description": [
+                    "Over the past 10 years I have dedicated over a thousand hours of time running a variety of community spaces and events. These usually involve managing other volunteers and/or spearheading projects.",
+                    "If something is worth helping with and within my means, I take the time to make it better through involvement.",
+                    "Various events include fundraisers, demos, photography zine fairs, and more."
+                ],
+                "images": [
+                    "cjf-benefit-fundraiser-flyer.png",
+                    "rayko-zine-fest-flyer.png"
+                ],
+                "url": "https://vladimirfilmfestival.com/nich-kunz-setting-up-the-darkroom/"
+            }
+        ]
+    },
+    {
+        "contact": [
+            {
+                "title": "Email",
+                "email": "mrnicholaskunz@gmail.com"
+            },
+            {
+                "title": "LinkedIn",
+                "linkedIn": "https://www.linkedin.com/in/nich-kunz/"
+            }
+        ]
+    }
+]
