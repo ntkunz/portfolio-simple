@@ -41,11 +41,11 @@ fetch('./data.json')
                         projectContainer.appendChild(url)
                     }
 
-                    const imageContainer = document.createElement('div')
-                    imageContainer.classList.add('image-container')
-                    projectContainer.appendChild(imageContainer)
-
                     if (item.images) {
+                        const imageContainer = document.createElement('div')
+                        imageContainer.classList.add('image-container')
+                        projectContainer.appendChild(imageContainer)
+
                         item.images.forEach((imageData) => {
                             const image = document.createElement('img')
                             image.src = './images/' + imageData.src
@@ -77,7 +77,8 @@ fetch('./data.json')
                         item.icons.forEach((icon) => {
                             const iconImg = document.createElement('img')
                             iconImg.classList.add('icon')
-                            iconImg.src = './images/icons/' + icon
+                            iconImg.src = './images/icons/' + icon.src
+                            iconImg.alt = icon.alt
                             icons.appendChild(iconImg)
                         })
                         projectContainer.appendChild(icons)
