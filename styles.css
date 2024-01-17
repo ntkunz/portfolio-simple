@@ -1,33 +1,8 @@
 :root {
-    /* --primary-color: 206, 241, 234; */
     --primary-color: 23, 41, 18;
-    /* --secondary-color: 133, 91, 2; */
-    /* nice bright green I like --secondary-color: 70, 223, 57; */
     --secondary-color: 0, 238, 255;
-    /* --tertiary-color: 3, 97, 77; */
     --tertiary-color: 202, 221, 238;
-    /* --fourth-color: 255, 217, 0; */
     --fourth-color: 254, 255, 182;
-}
-
-/* color tests below to get hex codes */
-body {
-    /* first */
-    color: rgb(206, 241, 234);
-    /* second */
-    color: rgb(133, 91, 2);
-    /* third */
-    color: rgb(3, 97, 77);
-    /* fourth */
-    color: rgb(255, 217, 0);
-    /* new primary color below */
-    color: rgb(23, 41, 18);
-    /* new secondary color below */
-    color: rgb(0, 238, 255);
-    /* new tertiary color below */
-    color: rgb(202, 221, 238);
-    /* new fourth color below */
-    color: rgb(254, 255, 182);
 }
 
 * {
@@ -48,7 +23,6 @@ body {
     margin: 1rem;
     max-width: 64rem;
     text-wrap: balance;
-    /* background-color: rgb(var(--primary-color), 0.2); */
 }
 
 h1 {
@@ -122,9 +96,6 @@ a.material-symbols-outlined:hover {
 }
 
 .project h3 {
-    /* background-color: rgb(var(--fourth-color)); */
-    /* border: 0.125rem solid rgb(var(--tertiary-color)); */
-    /* color: rgb(var(--primary-color)); */
     text-decoration: underline;
     padding: 0.5rem 0.25rem;
 }
@@ -132,7 +103,6 @@ a.material-symbols-outlined:hover {
 .project p {
     margin: 1rem 0;
     padding: 0.25rem;
-    /* background-color: rgba(var(--primary-color), 0.9); */
     width: fit-content;
     border-radius: 0.125rem;
     max-width: 56rem;
@@ -204,7 +174,7 @@ a.material-symbols-outlined:hover {
     }
 }
 
-/* desktop and above styles */
+/* desktop styles */
 @media screen and (min-width: 66rem) {
     body {
         margin: 1rem auto;
