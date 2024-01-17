@@ -1,11 +1,35 @@
 :root {
-    --primary-color: 206, 241, 234;
-    --secondary-color: 133, 91, 2;
-    --tertiary-color: 3, 97, 77;
-    --fourth-color: 255, 217, 0;
+    /* --primary-color: 206, 241, 234; */
+    --primary-color: 23, 41, 18;
+    /* --secondary-color: 133, 91, 2; */
+    /* nice bright green I like --secondary-color: 70, 223, 57; */
+    --secondary-color: 0, 238, 255;
+    /* --tertiary-color: 3, 97, 77; */
+    --tertiary-color: 202, 221, 238;
+    /* --fourth-color: 255, 217, 0; */
+    --fourth-color: 254, 255, 182;
 }
 
-/* add reset for css defaults */
+/* color tests below to get hex codes */
+body {
+    /* first */
+    color: rgb(206, 241, 234);
+    /* second */
+    color: rgb(133, 91, 2);
+    /* third */
+    color: rgb(3, 97, 77);
+    /* fourth */
+    color: rgb(255, 217, 0);
+    /* new primary color below */
+    color: rgb(23, 41, 18);
+    /* new secondary color below */
+    color: rgb(0, 238, 255);
+    /* new tertiary color below */
+    color: rgb(202, 221, 238);
+    /* new fourth color below */
+    color: rgb(254, 255, 182);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,11 +42,12 @@ html {
 }
 
 body {
-    background-color: rgb(var(--tertiary-color));
+    background-color: rgba(var(--secondary-color), 0.4);
     color: rgb(var(--primary-color));
     font-family: 'Open Sans', sans-serif;
     margin: 1rem;
     max-width: 64rem;
+    text-wrap: balance;
     /* background-color: rgb(var(--primary-color), 0.2); */
 }
 
@@ -36,7 +61,7 @@ h2 {
 
 header {
     text-align: center;
-    background-color: rgb(var(--secondary-color));
+    background-color: rgb(var(--fourth-color));
     overflow: hidden;
 }
 
@@ -46,7 +71,7 @@ header span {
 
 header h2 {
     align-self: flex-start;
-    color: rgb(var(--tertiary-color));
+    color: rgb(var(--secondary-color));
     text-shadow: 0.05rem 0.05rem 0.125rem rgb(var(--primary-color));
 }
 
@@ -76,7 +101,6 @@ main h2 {
 a.material-symbols-outlined {
     background-color: rgb(var(--secondary-color));
     padding: 0.125rem 0;
-    color: rgb(var(--primary-color));
     display: block;
     transition: all 0.3s ease;
     text-shadow: 0.125rem 0.125rem 0.125rem rgb(var(--tertiary-color));
@@ -91,7 +115,6 @@ a.material-symbols-outlined:hover {
 
 .project {
     background-color: rgba(var(--fourth-color), 0.8);
-    color: rgb(var(--tertiary-color));
     margin: 1rem 0;
     padding: 1rem;
     /* box-shadow: 0.125rem 0.125rem 0.25rem rgb(var(--primary-color)); */
@@ -99,25 +122,25 @@ a.material-symbols-outlined:hover {
 }
 
 .project h3 {
-    background-color: rgb(var(--fourth-color));
-    border: 0.125rem solid rgb(var(--tertiary-color));
+    /* background-color: rgb(var(--fourth-color)); */
+    /* border: 0.125rem solid rgb(var(--tertiary-color)); */
+    /* color: rgb(var(--primary-color)); */
+    text-decoration: underline;
     padding: 0.5rem 0.25rem;
-    width: fit-content;
-    border-radius: 0.25rem;
 }
 
 .project p {
     margin: 1rem 0;
     padding: 0.25rem;
-    background-color: rgba(var(--primary-color), 0.9);
+    /* background-color: rgba(var(--primary-color), 0.9); */
     width: fit-content;
     border-radius: 0.125rem;
     max-width: 56rem;
 }
 
 .project a {
-    color: rgb(var(--tertiary-color));
-    background-color: rgb(var(--primary-color));
+    color: rgb(var(--primary-color));
+    background-color: rgba(var(--secondary-color), 0.5);
     transition: all 0.3s ease;
     padding: 0.5rem;
     margin: 0.5rem;
@@ -125,11 +148,14 @@ a.material-symbols-outlined:hover {
     border-radius: 0.25rem;
     width: fit-content;
     display: block;
+    box-shadow: 0.125rem 0.125rem 0.125rem rgba(var(--primary-color), 0.5);
 }
 
 .project a:hover {
     color: rgb(var(--primary-color));
     background-color: rgb(var(--secondary-color));
+    border-color: rgb(var(--fourth-color));
+    box-shadow: 0.125rem 0.125rem 0.125rem rgb(var(--primary-color));
 }
 
 .image-container {
