@@ -11,15 +11,15 @@
                 "images": [
                     {
                         "src": "helping-neighbors-01.png",
-                        "alt": "helping-neighbors-01.png"
+                        "alt": "Screenshot of messaging a neighbor in the Helping Neighbors app"
                     },
                     {
                         "src": "helping-neighbors-03.png",
-                        "alt": "helping-neighbors-03.png"
+                        "alt": "Screenshot of the edit user or register new user page in the Helping Neighbors app"
                     },
                     {
                         "src": "helping-neighbors-04.png",
-                        "alt": "helping-neighbors-04.png"
+                        "alt": "Screenshot of the mobile view, listing neighbors, on the main page of the  Helping Neighbors app"
                     }
                 ],
                 "url": "https://helping-neighbors.nicholaskunz.com/",
@@ -35,15 +35,15 @@
                 "images": [
                     {
                         "src": "riseup-01.png",
-                        "alt": "riseup-01.png"
+                        "alt": "Screenshot of menu and order online section of the Riseuponelove.com website"
                     },
                     {
                         "src": "riseup-02.png",
-                        "alt": "riseup-02.png"
+                        "alt": "Screenshot of header section of the Riseuponelove.com website with photo of the store, location, and hours of operation"
                     },
                     {
                         "src": "riseup-03.png",
-                        "alt": "riseup-03.png"
+                        "alt": "Screenshot of the footer and slideshow image gallery sections of the Riseuponelove.com website"
                     }
                 ],
                 "url": "https://riseuponelove.com/",
@@ -58,11 +58,11 @@
                 "images": [
                     {
                         "src": "edgecity-01.png",
-                        "alt": "EdgeCity Woodworking Website Image 1"
+                        "alt": "Screenshot of the EdgeCity Woodworking Website with student projects and description of learning pathways"
                     },
                     {
                         "src": "edgecity-02.png",
-                        "alt": "EdgeCity Woodworking Website Image 2"
+                        "alt": "Screenshot of classes page of EdgeCity Woodworking Website"
                     }
                 ],
                 "url": "https://www.edgecitywoodworking.com/"
@@ -83,16 +83,34 @@
                 "images": [
                     {
                         "src": "webdev-01.png",
-                        "alt": "Frontend Web Development Image 1"
+                        "alt": "Screenshot of code in a vsCode editor with passing tests in the console"
                     }
                 ],
                 "icons": [
-                    "html5.svg",
-                    "css3.svg",
-                    "javascript.svg",
-                    "react.svg",
-                    "scss.svg",
-                    "jest.svg"
+                    {
+                        "src": "html5.svg",
+                        "alt": "HTML5 logo icon"
+                    },
+                    {
+                        "src": "css3.svg",
+                        "alt": "CSS3 logo icon"
+                    },
+                    {
+                        "src": "javascript.svg",
+                        "alt": "JavaScript logo icon"
+                    },
+                    {
+                        "src": "react.svg",
+                        "alt": "React logo icon"
+                    },
+                    {
+                        "src": "scss.svg",
+                        "alt": "SCSS logo icon"
+                    },
+                    {
+                        "src": "jest.svg",
+                        "alt": "Jest logo icon"
+                    }
                 ]
             },
             {
@@ -104,16 +122,34 @@
                 "images": [
                     {
                         "src": "backend-01.png",
-                        "alt": "Backend Web Development Image 1"
+                        "alt": "Screenshot of a code snipet in a vsCode editor with a knex/MySQL georgaphical location query"
                     }
                 ],
                 "icons": [
-                    "node.svg",
-                    "linux.svg",
-                    "express.svg",
-                    "knex.svg",
-                    "mysql.svg",
-                    "socketio.svg"
+                    {
+                        "src": "node.svg",
+                        "alt": "Node logo icon"
+                    },
+                    {
+                        "src": "linux.svg",
+                        "alt": "Linux logo icon"
+                    },
+                    {
+                        "src": "express.svg",
+                        "alt": "Express logo icon"
+                    },
+                    {
+                        "src": "knex.svg",
+                        "alt": "Knex logo icon"
+                    },
+                    {
+                        "src": "mysql.svg",
+                        "alt": "MySQL logo icon"
+                    },
+                    {
+                        "src": "socketio.svg",
+                        "alt": "Socket.io logo icon"
+                    }
                 ]
             }
         ]
@@ -134,7 +170,7 @@
                 "images": [
                     {
                         "src": "skateboarding-01.png",
-                        "alt": "Skateboarding Image 1"
+                        "alt": "Nicholas skateboarding on a roof between two parking lots"
                     }
                 ]
             },
@@ -148,11 +184,11 @@
                 "images": [
                     {
                         "src": "cjf-benefit-fundraiser-flyer.png",
-                        "alt": "Event Coordination and Volunteering Image 1"
+                        "alt": "A flyer for a benefit art show raising funds for a non-profit skatepark project in Angola for the Concrete Jungle Foundation"
                     },
                     {
                         "src": "rayko-zine-fest-flyer.png",
-                        "alt": "Event Coordination and Volunteering Image 2"
+                        "alt": "Flyer for a free photography zine-fest/zine-fair put on to gain exposure to the community staple art space RayKo Photography Center in San Francisco"
                     }
                 ],
                 "link": "https://vladimirfilmfestival.com/nich-kunz-setting-up-the-darkroom/"
