@@ -79,9 +79,16 @@ a.material-symbols-outlined {
     transition: all 0.3s ease;
     text-shadow: 0.125rem 0.125rem 0.125rem rgb(var(--tertiary-color));
     margin: 0.5rem 0;
+    color: rgb(var(--primary-color));
 }
 
 a.material-symbols-outlined:hover {
+    text-shadow: 0.05rem 0.05rem 0.1rem rgb(var(--primary-color));
+    background-color: rgba(var(--fourth-color), 0.2);
+    color: rgb(var(--tertiary-color));
+}
+
+a.material-symbols-outlined.active {
     text-shadow: 0.05rem 0.05rem 0.1rem rgb(var(--primary-color));
     background-color: rgba(var(--fourth-color), 0.2);
     color: rgb(var(--tertiary-color));
